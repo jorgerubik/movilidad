@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/estilos.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/js.js"></script>
+	<title>Movilidad Internacional</title>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.slidershow').cycle({
+				fx: 'fadeZoom'
+			});
+			
+		});
+	</script>
+</head>
+<body>
+<!--Encabezado -->
+	<div id="encabezado">
+		<img src="img/banner1.jpg" alt="" id="banner1">
+	</div>
+		
+<!--Menú-->
+	<div id="menu">
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="">Convocatoria</a></li>
+			<li><a href="">Requisitos</a></li>
+			<li><a href="">Listado de universidades</a></li>
+			<li><a href="">Pre-registro</a></li>
+		</ul>
+	</div>	
+<!--Contenido-->
+	<div id="contenido">
+		<p id="anuncio">
+			<marquee behavior="" direction="left" scrolldelay="100">Próximamente se dará a conocer la convocatoria 2016-1 para estudiantes de licenciatura</marquee>
+		</p>
+		<div class="slidershow">
+			<img src="img/1.jpg" class="galeria">
+			<img src="img/2.jpg" class="galeria">
+			<img src="img/3.jpg" class="galeria">
+			<img src="img/4.JPG" class="galeria">
+			<img src="img/5.JPG" class="galeria">
+			<img src="img/6.jpg" class="galeria">
+			<img src="img/7.jpg" class="galeria">
+			<img src="img/8.JPG" alt="" class="galeria">
+        </div>
+	</div>	
+</body>
+</html>
